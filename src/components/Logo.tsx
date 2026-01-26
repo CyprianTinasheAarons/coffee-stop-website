@@ -82,7 +82,7 @@ export default function Logo() {
         />
       </svg>
       <span className="font-display text-[1.2rem] sm:text-[1.4rem] tracking-[0.125em] text-gold">
-        COFFEE STOP
+        <span className="text-cream/70">MELVILLE.</span> COFFEE STOP
       </span>
     </motion.a>
   )

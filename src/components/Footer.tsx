@@ -29,14 +29,14 @@ export default function Footer() {
               className="flex items-center gap-3"
             >
               <svg className="w-8 h-8" viewBox="0 0 100 100">
-                <path d="M40 25 Q45 15 40 5" fill="none" stroke="#c4a574" strokeWidth="3" strokeLinecap="round"/>
-                <path d="M55 25 Q60 15 55 5" fill="none" stroke="#c4a574" strokeWidth="3" strokeLinecap="round"/>
-                <rect x="25" y="35" width="50" height="45" rx="5" fill="none" stroke="#c4a574" strokeWidth="3"/>
-                <path d="M75 45 Q88 45 88 60 Q88 75 75 75" fill="none" stroke="#c4a574" strokeWidth="3"/>
-                <circle cx="50" cy="57" r="12" fill="none" stroke="#c4a574" strokeWidth="2"/>
+                <path d="M40 25 Q45 15 40 5" fill="none" stroke="#c4a574" strokeWidth="3" strokeLinecap="round" />
+                <path d="M55 25 Q60 15 55 5" fill="none" stroke="#c4a574" strokeWidth="3" strokeLinecap="round" />
+                <rect x="25" y="35" width="50" height="45" rx="5" fill="none" stroke="#c4a574" strokeWidth="3" />
+                <path d="M75 45 Q88 45 88 60 Q88 75 75 75" fill="none" stroke="#c4a574" strokeWidth="3" />
+                <circle cx="50" cy="57" r="12" fill="none" stroke="#c4a574" strokeWidth="2" />
               </svg>
               <span className="font-display text-xl tracking-widest text-gold">
-                COFFEE STOP
+                <span className="text-cream/70">MELVILLE.</span> COFFEE STOP
               </span>
             </motion.div>
 

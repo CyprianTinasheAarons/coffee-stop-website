@@ -62,11 +62,10 @@ export default function Navigation({ onMenuToggle }: NavigationProps) {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
           ? 'bg-coffee-dark/95 backdrop-blur-sm'
           : ''
-      }`}
+        }`}
       style={{
         background: scrolled
           ? 'rgba(13, 9, 6, 0.95)'
@@ -87,11 +86,10 @@ export default function Navigation({ onMenuToggle }: NavigationProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 + i * 0.1 }}
               whileHover={{ opacity: 1 }}
-              className={`font-sans text-[0.85rem] tracking-[0.05em] no-underline transition-all ${
-                activeSection === link.id
-                  ? 'text-gold'
-                  : 'text-cream/80 hover:text-cream'
-              }`}
+              className={`font-sans text-[0.85rem] tracking-[0.05em] no-underline transition-all relative pb-1 ${activeSection === link.id
+                  ? 'text-gold after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-gold'
+                  : 'text-cream/70 hover:text-cream after:absolute after:bottom-0 after:left-0 after:w-0 hover:after:w-full after:h-[1px] after:bg-cream/50 after:transition-all after:duration-300'
+                }`}
             >
               {link.label}
             </motion.a>
