@@ -131,41 +131,6 @@ export default function Hero() {
   )
 }
 
-function FloatingBean({ className, delay = 0, size = 80, rotate = -30 }: { className?: string; delay?: number; size?: number; rotate?: number }) {
-  return (
-    <motion.svg
-      className={`${className} opacity-[0.08] pointer-events-none`}
-      width={size}
-      height={size}
-      viewBox="0 0 100 100"
-      animate={{
-        y: [0, -15, 0],
-        rotate: [rotate, rotate + 10, rotate],
-        scale: [1, 1.05, 1],
-      }}
-      transition={{
-        duration: 4,
-        delay,
-        repeat: Infinity,
-        ease: 'easeInOut',
-      }}
-    >
-      <ellipse
-        cx="50" cy="50" rx="40" ry="25"
-        fill="none"
-        stroke="#c4a574"
-        strokeWidth="2"
-      />
-      <path
-        d="M30 50 Q50 35 70 50"
-        fill="none"
-        stroke="#c4a574"
-        strokeWidth="1.5"
-      />
-    </motion.svg>
-  )
-}
-
 function AnimatedCoffeeCup() {
   return (
     <div className="relative">
@@ -298,3 +263,39 @@ function AnimatedCoffeeCup() {
     </div>
   )
 }
+
+function FloatingBean({ className, delay = 0, size = 80, rotate = -30 }: { className?: string; delay?: number; size?: number; rotate?: number }) {
+  return (
+    <motion.svg
+      className={`${className} opacity-[0.08] pointer-events-none`}
+      width={size}
+      height={size}
+      viewBox="0 0 100 100"
+      animate={{
+        y: [0, -15, 0],
+        rotate: [rotate, rotate + 10, rotate],
+        scale: [1, 1.05, 1],
+      }}
+      transition={{
+        duration: 4,
+        delay,
+        repeat: Infinity,
+        ease: 'easeInOut',
+      }}
+    >
+      <ellipse
+        cx="50" cy="50" rx="40" ry="25"
+        fill="none"
+        stroke="#c4a574"
+        strokeWidth="2"
+      />
+      <path
+        d="M30 50 Q50 35 70 50"
+        fill="none"
+        stroke="#c4a574"
+        strokeWidth="1.5"
+      />
+    </motion.svg>
+  )
+}
+
