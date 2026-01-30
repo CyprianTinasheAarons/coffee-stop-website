@@ -100,7 +100,7 @@ export default function Footer() {
               transition={{ delay: 0.4 }}
               className="font-sans text-xs text-cream/40"
             >
-              © 2026 MuleView Coffee Stop. Melville, Johannesburg.
+              © 2026 Melville Coffee Stop. Melville, Johannesburg.
             </motion.p>
 
             {/* Ownership */}
@@ -111,7 +111,7 @@ export default function Footer() {
               transition={{ delay: 0.5 }}
               className="font-sans text-xs text-cream/30"
             >
-              MuleView Coffee Stop is owned by LOKAL ONE (PTY) LTD
+              Melville Coffee Stop is owned by LOKAL ONE (PTY) LTD
             </motion.p>
           </div>
         </div>

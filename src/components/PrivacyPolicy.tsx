@@ -46,7 +46,7 @@ export default function PrivacyPolicy() {
               1. Introduction
             </h2>
             <p>
-              MuleView Coffee Stop ("we", "us", or "our"), a trading name of LOKAL ONE (PTY) LTD,
+              Melville Coffee Stop ("we", "us", or "our"), a trading name of LOKAL ONE (PTY) LTD,
               operates a WhatsApp-based coffee ordering service and website located in Melville,
               Johannesburg, South Africa. This Privacy Policy
               explains how we collect, use, disclose, and protect your personal information when you
@@ -284,8 +284,8 @@ export default function PrivacyPolicy() {
             View Terms &amp; Conditions
           </Link>
           <div className="font-sans text-xs text-cream/30 space-y-1">
-            <p>© 2026 MuleView Coffee Stop. Melville, Johannesburg.</p>
-            <p>MuleView Coffee Stop is owned by LOKAL ONE (PTY) LTD</p>
+            <p>© 2026 Melville Coffee Stop. Melville, Johannesburg.</p>
+            <p>Melville Coffee Stop is owned by LOKAL ONE (PTY) LTD</p>
           </div>
         </div>
       </motion.div>

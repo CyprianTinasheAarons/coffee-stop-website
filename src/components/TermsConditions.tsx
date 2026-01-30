@@ -46,7 +46,7 @@ export default function TermsConditions() {
               1. Introduction
             </h2>
             <p>
-              These Terms and Conditions ("Terms") govern your use of the MuleView Coffee Stop
+              These Terms and Conditions ("Terms") govern your use of the Melville Coffee Stop
               WhatsApp ordering service and website (collectively, the "Service") operated by
               LOKAL ONE (PTY) LTD, located at 18 Main Rd, Melville, Johannesburg, South Africa.
             </p>
@@ -62,7 +62,7 @@ export default function TermsConditions() {
               2. Service Description
             </h2>
             <p>
-              MuleView Coffee Stop provides an AI-powered WhatsApp ordering bot that allows customers to
+              Melville Coffee Stop provides an AI-powered WhatsApp ordering bot that allows customers to
               place coffee and food orders via WhatsApp. The service includes:
             </p>
             <ul className="list-disc list-inside space-y-2 ml-2 mt-3">
@@ -186,7 +186,7 @@ export default function TermsConditions() {
             </h2>
             <p>
               All content on our website, including text, graphics, logos, images, and software, is
-              the property of MuleView Coffee Stop and is protected by South African intellectual property
+              the property of Melville Coffee Stop and is protected by South African intellectual property
               laws. You may not reproduce, distribute, or create derivative works from our content
               without prior written permission.
             </p>
@@ -198,7 +198,7 @@ export default function TermsConditions() {
               7. Limitation of Liability
             </h2>
             <p>
-              To the fullest extent permitted by law, MuleView Coffee Stop shall not be liable for any
+              To the fullest extent permitted by law, Melville Coffee Stop shall not be liable for any
               indirect, incidental, special, or consequential damages arising from your use of our
               Service, including but not limited to:
             </p>
@@ -304,8 +304,8 @@ export default function TermsConditions() {
             View Privacy Policy
           </Link>
           <div className="font-sans text-xs text-cream/30 space-y-1">
-            <p>© 2026 MuleView Coffee Stop. Melville, Johannesburg.</p>
-            <p>MuleView Coffee Stop is owned by LOKAL ONE (PTY) LTD</p>
+            <p>© 2026 Melville Coffee Stop. Melville, Johannesburg.</p>
+            <p>Melville Coffee Stop is owned by LOKAL ONE (PTY) LTD</p>
           </div>
         </div>
       </motion.div>
