@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { MessageCircle } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const WHATSAPP_LINK = 'https://wa.me/27600200670?text=Hi%20I%20would%20like%20to%20place%20an%20order'
 
@@ -68,15 +69,49 @@ export default function Footer() {
               +27 600 200 670
             </motion.a>
 
+            {/* Legal Links */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              className="flex gap-4 font-sans text-xs"
+            >
+              <Link
+                to="/privacy"
+                className="text-cream/50 hover:text-gold transition-colors"
+              >
+                Privacy Policy
+              </Link>
+              <span className="text-cream/20">|</span>
+              <Link
+                to="/terms"
+                className="text-cream/50 hover:text-gold transition-colors"
+              >
+                Terms &amp; Conditions
+              </Link>
+            </motion.div>
+
             {/* Copyright */}
             <motion.p
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
+              transition={{ delay: 0.4 }}
               className="font-sans text-xs text-cream/40"
             >
-              © 2026 Coffee Stop. Melville, Johannesburg.
+              © 2026 MuleView Coffee Stop. Melville, Johannesburg.
+            </motion.p>
+
+            {/* Ownership */}
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.5 }}
+              className="font-sans text-xs text-cream/30"
+            >
+              MuleView Coffee Stop is owned by LOKAL ONE (PTY) LTD
             </motion.p>
           </div>
         </div>
