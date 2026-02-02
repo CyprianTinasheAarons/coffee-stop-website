@@ -147,7 +147,7 @@ export default function TermsConditions() {
 
             <h3 className="text-lg text-cream mt-5 mb-2">4.3 Payment</h3>
             <p>
-              Payment is collected at the point of collection at our store. We accept cash, card,
+              Payment is collected at the point of collection at our store. We accept card, card,
               and other payment methods as displayed in-store.
             </p>
 
